@@ -10,7 +10,7 @@ export const Complete = ({ record }) => {
         dispatchTodos({ type: 'COMPLETE_TODO', payload: record.key });
       }}
     >
-      <span>Complete 12</span>
+      <span>Complete 15</span>
     </a>
   );
 };
