@@ -12,7 +12,7 @@ export const Delete = ({ record }) => {
         dispatchTodos({ type: 'DELETE_TODO', payload: record.key });
       }}
     >
-      <a href="#delete">Delete all</a>
+      <a href="#delete">Delete all 33</a>
     </Popconfirm>
   );
 };
